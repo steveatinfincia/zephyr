@@ -1,0 +1,16 @@
+identifier: m5stack_core
+name: M5STACK-CORE
+type: mcu
+arch: xtensa
+toolchain:
+  - espressif
+supported:
+  - gpio
+  - ble
+  - i2c
+  - pwm
+  - spi
+  - watchdog
+  - uart
+  - pinmux
+  - nvs
